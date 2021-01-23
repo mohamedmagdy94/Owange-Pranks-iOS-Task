@@ -99,6 +99,7 @@
 		947E66A225BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */ = {
 			isa = PBXGroup;
 			children = (
+				947E66CD25BCDEAE0049DEAF /* Modules */,
 				947E66C725BCD8440049DEAF /* Common */,
 				947E66C525BCD81F0049DEAF /* Resources */,
 			);
@@ -148,6 +149,61 @@
 				947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		947E66CD25BCDEAE0049DEAF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				947E66CE25BCDEBA0049DEAF /* ReprositoryList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		947E66CE25BCDEBA0049DEAF /* ReprositoryList */ = {
+			isa = PBXGroup;
+			children = (
+				947E66D325BCDEDE0049DEAF /* Router */,
+				947E66D225BCDEDA0049DEAF /* Entity */,
+				947E66D125BCDED10049DEAF /* Presenter */,
+				947E66D025BCDEC80049DEAF /* Interactor */,
+				947E66CF25BCDEC30049DEAF /* View */,
+			);
+			path = ReprositoryList;
+			sourceTree = "<group>";
+		};
+		947E66CF25BCDEC30049DEAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		947E66D025BCDEC80049DEAF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		947E66D125BCDED10049DEAF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		947E66D225BCDEDA0049DEAF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		947E66D325BCDEDE0049DEAF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		E9B1CB2E1B101D5F08EE59F7 /* Pods */ = {
