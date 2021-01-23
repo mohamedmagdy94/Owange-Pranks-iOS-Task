@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EE1E494CC5105A65B9299EC /* Pods_Owange_Pranks_iOS_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937CCFA81DF12E976A5E962B /* Pods_Owange_Pranks_iOS_TaskTests.framework */; };
 		947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66A325BCA8AA0049DEAF /* AppDelegate.swift */; };
 		947E66A625BCA8AA0049DEAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66A525BCA8AA0049DEAF /* SceneDelegate.swift */; };
 		947E66A825BCA8AA0049DEAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66A725BCA8AA0049DEAF /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		947E66AD25BCA8AC0049DEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947E66AC25BCA8AC0049DEAF /* Assets.xcassets */; };
 		947E66B025BCA8AC0049DEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E66AE25BCA8AC0049DEAF /* LaunchScreen.storyboard */; };
 		947E66BB25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */; };
+		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA9A01BB3A8D7DBD267D9DA /* Pods-Owange-Pranks-iOS-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		937CCFA81DF12E976A5E962B /* Pods_Owange_Pranks_iOS_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owange_Pranks_iOS_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owange_Pranks_iOS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		947E66A025BCA8AA0049DEAF /* Owange-Pranks-iOS-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owange-Pranks-iOS-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947E66A325BCA8AA0049DEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		947E66A525BCA8AA0049DEAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		947E66B625BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owange-Pranks-iOS-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_Pranks_iOS_TaskTests.swift; sourceTree = "<group>"; };
 		947E66BC25BCA8AC0049DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE1E494CC5105A65B9299EC /* Pods_Owange_Pranks_iOS_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B42171266932DB4B1D6EA41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */,
+				937CCFA81DF12E976A5E962B /* Pods_Owange_Pranks_iOS_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		947E669725BCA8AA0049DEAF = {
 			isa = PBXGroup;
 			children = (
 				947E66A225BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */,
 				947E66B925BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests */,
 				947E66A125BCA8AA0049DEAF /* Products */,
+				E9B1CB2E1B101D5F08EE59F7 /* Pods */,
+				7B42171266932DB4B1D6EA41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,18 @@
 			path = "Owange-Pranks-iOS-TaskTests";
 			sourceTree = "<group>";
 		};
+		E9B1CB2E1B101D5F08EE59F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */,
+				F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */,
+				E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */,
+				0FA9A01BB3A8D7DBD267D9DA /* Pods-Owange-Pranks-iOS-TaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 947E66BF25BCA8AC0049DEAF /* Build configuration list for PBXNativeTarget "Owange-Pranks-iOS-Task" */;
 			buildPhases = (
+				33323A48F4EADA5A10BF9E24 /* [CP] Check Pods Manifest.lock */,
 				947E669C25BCA8AA0049DEAF /* Sources */,
 				947E669D25BCA8AA0049DEAF /* Frameworks */,
 				947E669E25BCA8AA0049DEAF /* Resources */,
+				C2DADCA8E8EF634BE2B48AA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 947E66C225BCA8AC0049DEAF /* Build configuration list for PBXNativeTarget "Owange-Pranks-iOS-TaskTests" */;
 			buildPhases = (
+				6692F555FD62C7B1C24D7B7A /* [CP] Check Pods Manifest.lock */,
 				947E66B225BCA8AC0049DEAF /* Sources */,
 				947E66B325BCA8AC0049DEAF /* Frameworks */,
 				947E66B425BCA8AC0049DEAF /* Resources */,
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33323A48F4EADA5A10BF9E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owange-Pranks-iOS-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6692F555FD62C7B1C24D7B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owange-Pranks-iOS-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DADCA8E8EF634BE2B48AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		947E669C25BCA8AA0049DEAF /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		947E66C025BCA8AC0049DEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +479,7 @@
 		};
 		947E66C125BCA8AC0049DEAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +498,7 @@
 		};
 		947E66C325BCA8AC0049DEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +521,7 @@
 		};
 		947E66C425BCA8AC0049DEAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA9A01BB3A8D7DBD267D9DA /* Pods-Owange-Pranks-iOS-TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
