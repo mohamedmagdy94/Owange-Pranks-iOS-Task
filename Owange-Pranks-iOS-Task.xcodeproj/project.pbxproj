@@ -15,6 +15,7 @@
 		947E66BB25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */; };
 		947E66CB25BCD9300049DEAF /* HachiMaruPop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */; };
 		947E66CC25BCD9310049DEAF /* HachiMaruPop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */; };
+		947E66D525BCDF200049DEAF /* ReprositoryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */; };
 		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_Pranks_iOS_TaskTests.swift; sourceTree = "<group>"; };
 		947E66BC25BCA8AC0049DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HachiMaruPop-Regular.ttf"; sourceTree = "<group>"; };
+		947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReprositoryList.storyboard; sourceTree = "<group>"; };
 		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		947E66CF25BCDEC30049DEAF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				947E66B025BCA8AC0049DEAF /* LaunchScreen.storyboard in Resources */,
 				947E66CB25BCD9300049DEAF /* HachiMaruPop-Regular.ttf in Resources */,
 				947E66AD25BCA8AC0049DEAF /* Assets.xcassets in Resources */,
+				947E66D525BCDF200049DEAF /* ReprositoryList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
