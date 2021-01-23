@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66A325BCA8AA0049DEAF /* AppDelegate.swift */; };
+		947E66A625BCA8AA0049DEAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66A525BCA8AA0049DEAF /* SceneDelegate.swift */; };
+		947E66A825BCA8AA0049DEAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66A725BCA8AA0049DEAF /* ViewController.swift */; };
+		947E66AB25BCA8AA0049DEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E66A925BCA8AA0049DEAF /* Main.storyboard */; };
+		947E66AD25BCA8AC0049DEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947E66AC25BCA8AC0049DEAF /* Assets.xcassets */; };
+		947E66B025BCA8AC0049DEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E66AE25BCA8AC0049DEAF /* LaunchScreen.storyboard */; };
+		947E66BB25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947E66B725BCA8AC0049DEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947E669825BCA8AA0049DEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947E669F25BCA8AA0049DEAF;
+			remoteInfo = "Owange-Pranks-iOS-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		947E66A025BCA8AA0049DEAF /* Owange-Pranks-iOS-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owange-Pranks-iOS-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947E66A325BCA8AA0049DEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		947E66A525BCA8AA0049DEAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		947E66A725BCA8AA0049DEAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		947E66AA25BCA8AA0049DEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		947E66AC25BCA8AC0049DEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		947E66AF25BCA8AC0049DEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		947E66B125BCA8AC0049DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947E66B625BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owange-Pranks-iOS-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_Pranks_iOS_TaskTests.swift; sourceTree = "<group>"; };
+		947E66BC25BCA8AC0049DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947E669D25BCA8AA0049DEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947E66B325BCA8AC0049DEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947E669725BCA8AA0049DEAF = {
+			isa = PBXGroup;
+			children = (
+				947E66A225BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */,
+				947E66B925BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests */,
+				947E66A125BCA8AA0049DEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947E66A125BCA8AA0049DEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947E66A025BCA8AA0049DEAF /* Owange-Pranks-iOS-Task.app */,
+				947E66B625BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947E66A225BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */ = {
+			isa = PBXGroup;
+			children = (
+				947E66A325BCA8AA0049DEAF /* AppDelegate.swift */,
+				947E66A525BCA8AA0049DEAF /* SceneDelegate.swift */,
+				947E66A725BCA8AA0049DEAF /* ViewController.swift */,
+				947E66A925BCA8AA0049DEAF /* Main.storyboard */,
+				947E66AC25BCA8AC0049DEAF /* Assets.xcassets */,
+				947E66AE25BCA8AC0049DEAF /* LaunchScreen.storyboard */,
+				947E66B125BCA8AC0049DEAF /* Info.plist */,
+			);
+			path = "Owange-Pranks-iOS-Task";
+			sourceTree = "<group>";
+		};
+		947E66B925BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */,
+				947E66BC25BCA8AC0049DEAF /* Info.plist */,
+			);
+			path = "Owange-Pranks-iOS-TaskTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947E669F25BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947E66BF25BCA8AC0049DEAF /* Build configuration list for PBXNativeTarget "Owange-Pranks-iOS-Task" */;
+			buildPhases = (
+				947E669C25BCA8AA0049DEAF /* Sources */,
+				947E669D25BCA8AA0049DEAF /* Frameworks */,
+				947E669E25BCA8AA0049DEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Owange-Pranks-iOS-Task";
+			productName = "Owange-Pranks-iOS-Task";
+			productReference = 947E66A025BCA8AA0049DEAF /* Owange-Pranks-iOS-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947E66B525BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947E66C225BCA8AC0049DEAF /* Build configuration list for PBXNativeTarget "Owange-Pranks-iOS-TaskTests" */;
+			buildPhases = (
+				947E66B225BCA8AC0049DEAF /* Sources */,
+				947E66B325BCA8AC0049DEAF /* Frameworks */,
+				947E66B425BCA8AC0049DEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947E66B825BCA8AC0049DEAF /* PBXTargetDependency */,
+			);
+			name = "Owange-Pranks-iOS-TaskTests";
+			productName = "Owange-Pranks-iOS-TaskTests";
+			productReference = 947E66B625BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947E669825BCA8AA0049DEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = OwangePranks;
+				TargetAttributes = {
+					947E669F25BCA8AA0049DEAF = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					947E66B525BCA8AC0049DEAF = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 947E669F25BCA8AA0049DEAF;
+					};
+				};
+			};
+			buildConfigurationList = 947E669B25BCA8AA0049DEAF /* Build configuration list for PBXProject "Owange-Pranks-iOS-Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947E669725BCA8AA0049DEAF;
+			productRefGroup = 947E66A125BCA8AA0049DEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947E669F25BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */,
+				947E66B525BCA8AC0049DEAF /* Owange-Pranks-iOS-TaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947E669E25BCA8AA0049DEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947E66B025BCA8AC0049DEAF /* LaunchScreen.storyboard in Resources */,
+				947E66AD25BCA8AC0049DEAF /* Assets.xcassets in Resources */,
+				947E66AB25BCA8AA0049DEAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947E66B425BCA8AC0049DEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947E669C25BCA8AA0049DEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947E66A825BCA8AA0049DEAF /* ViewController.swift in Sources */,
+				947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */,
+				947E66A625BCA8AA0049DEAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947E66B225BCA8AC0049DEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947E66BB25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947E66B825BCA8AC0049DEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947E669F25BCA8AA0049DEAF /* Owange-Pranks-iOS-Task */;
+			targetProxy = 947E66B725BCA8AC0049DEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947E66A925BCA8AA0049DEAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947E66AA25BCA8AA0049DEAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		947E66AE25BCA8AC0049DEAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947E66AF25BCA8AC0049DEAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947E66BD25BCA8AC0049DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		947E66BE25BCA8AC0049DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947E66C025BCA8AC0049DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGMD963KYP;
+				INFOPLIST_FILE = "Owange-Pranks-iOS-Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OwangePranks.Owange-Pranks-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		947E66C125BCA8AC0049DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGMD963KYP;
+				INFOPLIST_FILE = "Owange-Pranks-iOS-Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OwangePranks.Owange-Pranks-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		947E66C325BCA8AC0049DEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGMD963KYP;
+				INFOPLIST_FILE = "Owange-Pranks-iOS-TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OwangePranks.Owange-Pranks-iOS-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owange-Pranks-iOS-Task.app/Owange-Pranks-iOS-Task";
+			};
+			name = Debug;
+		};
+		947E66C425BCA8AC0049DEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGMD963KYP;
+				INFOPLIST_FILE = "Owange-Pranks-iOS-TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OwangePranks.Owange-Pranks-iOS-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owange-Pranks-iOS-Task.app/Owange-Pranks-iOS-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947E669B25BCA8AA0049DEAF /* Build configuration list for PBXProject "Owange-Pranks-iOS-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947E66BD25BCA8AC0049DEAF /* Debug */,
+				947E66BE25BCA8AC0049DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947E66BF25BCA8AC0049DEAF /* Build configuration list for PBXNativeTarget "Owange-Pranks-iOS-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947E66C025BCA8AC0049DEAF /* Debug */,
+				947E66C125BCA8AC0049DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947E66C225BCA8AC0049DEAF /* Build configuration list for PBXNativeTarget "Owange-Pranks-iOS-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947E66C325BCA8AC0049DEAF /* Debug */,
+				947E66C425BCA8AC0049DEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947E669825BCA8AA0049DEAF /* Project object */;
+}
