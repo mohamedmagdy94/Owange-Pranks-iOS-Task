@@ -12,9 +12,7 @@ target 'Owange-Pranks-iOS-Task' do
   pod 'SDWebImage'
   pod 'IQKeyboardManagerSwift'
   pod 'AlamofireNetworkActivityIndicator'
-
-
-
+  pod 'Loaf'
 
   target 'Owange-Pranks-iOS-TaskTests' do
     inherit! :search_paths
