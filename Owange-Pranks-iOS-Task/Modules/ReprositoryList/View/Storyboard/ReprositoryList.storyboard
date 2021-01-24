@@ -61,49 +61,25 @@
                                         <cells/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </collectionView>
                                 </subviews>
                             </stackView>
-                            <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mD0-uI-cg1" userLabel="repoPlaceholderSkeletonLoadingView">
-                                <rect key="frame" x="8" y="213.5" width="398" height="640.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="16"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="0.29999999999999999"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
-                                        <size key="value" width="0.0" height="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="mD0-uI-cg1" firstAttribute="leading" secondItem="vT0-cr-mg4" secondAttribute="leading" id="E7f-jE-Zf5"/>
                             <constraint firstItem="xhQ-2w-vRm" firstAttribute="trailing" secondItem="8wz-lM-6lM" secondAttribute="trailing" constant="8" id="KN4-Qf-8XM"/>
-                            <constraint firstItem="mD0-uI-cg1" firstAttribute="bottom" secondItem="vT0-cr-mg4" secondAttribute="bottom" id="QXj-LL-at3"/>
                             <constraint firstItem="xhQ-2w-vRm" firstAttribute="bottom" secondItem="8wz-lM-6lM" secondAttribute="bottom" constant="8" id="TfH-Cw-pMX"/>
-                            <constraint firstItem="mD0-uI-cg1" firstAttribute="top" secondItem="vT0-cr-mg4" secondAttribute="top" id="TqA-AD-g96"/>
                             <constraint firstItem="8wz-lM-6lM" firstAttribute="top" secondItem="xhQ-2w-vRm" secondAttribute="top" constant="8" id="UgG-dd-efe"/>
                             <constraint firstItem="8wz-lM-6lM" firstAttribute="leading" secondItem="xhQ-2w-vRm" secondAttribute="leading" constant="8" id="Vf4-cc-pEG"/>
-                            <constraint firstItem="mD0-uI-cg1" firstAttribute="trailing" secondItem="vT0-cr-mg4" secondAttribute="trailing" id="tGK-KS-nRx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xhQ-2w-vRm"/>
                     </view>
                     <connections>
                         <outlet property="listCollectionView" destination="vT0-cr-mg4" id="sTZ-aP-BCc"/>
-                        <outlet property="repoPlaceholderSkeletonView" destination="mD0-uI-cg1" id="bTx-9X-v4l"/>
                         <outlet property="searchBar" destination="ZOY-Xe-pPm" id="bzs-kP-ul6"/>
                         <outlet property="statusSegmentControl" destination="mQy-SF-TeA" id="8a1-Sy-j8s"/>
                     </connections>
