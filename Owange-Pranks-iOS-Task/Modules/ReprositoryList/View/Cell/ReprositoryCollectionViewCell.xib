@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HachiMaruPop-Regular.ttf">
+            <string>HachiMaruPop-Regular</string>
+        </array>
+        <array key="PottaOne-Regular.ttf">
+            <string>PottaOne-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="REPROPSITORY_COLLECTION_VIEW_CELL" id="gTV-IL-0wX" customClass="ReprositoryCollectionViewCell" customModule="Owange_Pranks_iOS_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="212"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="212"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrd-yO-aR6" userLabel="rootView">
+                        <rect key="frame" x="8" y="8" width="259" height="180"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-vQ-HGD" userLabel="rootStack">
+                                <rect key="frame" x="8" y="8" width="243" height="164"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Iz-eq-ApO" userLabel="avatarView">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="164"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owange_pranks_logo" translatesAutoresizingMaskIntoConstraints="NO" id="zqY-hH-43w" userLabel="ownerImageView">
+                                                <rect key="frame" x="0.0" y="8" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="1cC-wt-nly"/>
+                                                    <constraint firstAttribute="height" constant="24" id="iF8-L6-0h1"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="zqY-hH-43w" firstAttribute="top" secondItem="2Iz-eq-ApO" secondAttribute="top" constant="8" id="jLC-Mg-Je5"/>
+                                            <constraint firstItem="zqY-hH-43w" firstAttribute="leading" secondItem="2Iz-eq-ApO" secondAttribute="leading" id="sTU-DU-Dr1"/>
+                                            <constraint firstAttribute="width" constant="48" id="wBm-zg-gEL"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ICS-rZ-sh2" userLabel="dataStack">
+                                        <rect key="frame" x="48" y="0.0" width="195" height="164"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="BzM-A4-uff" userLabel="nameStack">
+                                                <rect key="frame" x="0.0" y="0.0" width="195" height="25"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySU-K8-cO9" userLabel="repoNameKeyLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="95.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="chef-utils" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37G-Ch-Qhm" userLabel="repoNameValueLabel">
+                                                        <rect key="frame" x="99.5" y="0.0" width="95.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0O9-Gq-8tK" userLabel="forksStack">
+                                                <rect key="frame" x="0.0" y="25" width="195" height="25"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forks Count : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaV-5a-y0j" userLabel="forksCountKeyLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="78" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VJ-N6-wdX" userLabel="forksCountValueLabel">
+                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OeQ-SS-j75" userLabel="issuesStack">
+                                                <rect key="frame" x="0.0" y="50" width="195" height="25"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Issues Count : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otx-J6-t8h" userLabel="issuesCountKeyLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iu-vZ-fNA" userLabel="issuesCountValueLabel">
+                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="281-DA-pP1" userLabel="languageStack">
+                                                <rect key="frame" x="0.0" y="75" width="195" height="25"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHE-OO-XQN" userLabel="langaugeKeyLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOb-Cr-8Xd" userLabel="languageValueLabel">
+                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="25"/>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="U3j-WN-Xz7" userLabel="descriptionStack">
+                                                <rect key="frame" x="0.0" y="100" width="195" height="50"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QZp-Bc-unu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="95.5" height="50"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTN-Vc-gmE" userLabel="descriptionKeyLabel">
+                                                                <rect key="frame" x="0.0" y="0.0" width="95.5" height="49.5"/>
+                                                                <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="HTN-Vc-gmE" firstAttribute="leading" secondItem="QZp-Bc-unu" secondAttribute="leading" id="EOW-mq-Czv"/>
+                                                            <constraint firstItem="HTN-Vc-gmE" firstAttribute="top" secondItem="QZp-Bc-unu" secondAttribute="top" id="ZnG-Ew-wuz"/>
+                                                            <constraint firstAttribute="trailing" secondItem="HTN-Vc-gmE" secondAttribute="trailing" id="w3D-3G-3za"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efk-eT-rmK" userLabel="descriptionValueLabel">
+                                                        <rect key="frame" x="99.5" y="0.0" width="95.5" height="50"/>
+                                                        <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mutableString>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rv-h0-TVP" userLabel="emptyView">
+                                                <rect key="frame" x="0.0" y="150" width="195" height="14"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="MVW-vQ-HGD" secondAttribute="bottom" constant="8" id="5Ho-jn-Sei"/>
+                            <constraint firstItem="MVW-vQ-HGD" firstAttribute="leading" secondItem="rrd-yO-aR6" secondAttribute="leading" constant="8" id="IyD-I1-1kY"/>
+                            <constraint firstItem="MVW-vQ-HGD" firstAttribute="top" secondItem="rrd-yO-aR6" secondAttribute="top" constant="8" id="Z4W-pP-KLa"/>
+                            <constraint firstAttribute="trailing" secondItem="MVW-vQ-HGD" secondAttribute="trailing" constant="8" id="oG1-J1-seg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="rrd-yO-aR6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="K7w-gb-UKL"/>
+                <constraint firstAttribute="trailing" secondItem="rrd-yO-aR6" secondAttribute="trailing" constant="8" id="klX-8U-wc6"/>
+                <constraint firstAttribute="bottom" secondItem="rrd-yO-aR6" secondAttribute="bottom" constant="24" id="s1F-EN-scI"/>
+                <constraint firstItem="rrd-yO-aR6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="sRF-UJ-165"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="275" height="212"/>
+            <connections>
+                <outlet property="ownerImageView" destination="zqY-hH-43w" id="Gtq-wY-jrd"/>
+                <outlet property="repoDescriptionLabel" destination="efk-eT-rmK" id="lkx-yC-cLE"/>
+                <outlet property="repoForkCounts" destination="5VJ-N6-wdX" id="cid-rs-V0N"/>
+                <outlet property="repoIssuesCountLabel" destination="7iu-vZ-fNA" id="aO2-dx-syh"/>
+                <outlet property="repoLanguageLabel" destination="uOb-Cr-8Xd" id="x4y-L2-bMd"/>
+                <outlet property="repoNameLabel" destination="37G-Ch-Qhm" id="aX6-GE-p50"/>
+            </connections>
+            <point key="canvasLocation" x="89" y="3"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="owange_pranks_logo" width="85" height="25.5"/>
+    </resources>
+</document>

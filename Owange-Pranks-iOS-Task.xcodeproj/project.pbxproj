@@ -16,6 +16,12 @@
 		947E66CB25BCD9300049DEAF /* HachiMaruPop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */; };
 		947E66CC25BCD9310049DEAF /* HachiMaruPop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */; };
 		947E66D525BCDF200049DEAF /* ReprositoryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */; };
+		947E66DA25BCE0B40049DEAF /* ReprositoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66D825BCE0B40049DEAF /* ReprositoryCollectionViewCell.swift */; };
+		947E66DB25BCE0B40049DEAF /* ReprositoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947E66D925BCE0B40049DEAF /* ReprositoryCollectionViewCell.xib */; };
+		947E66DD25BCE3A40049DEAF /* PottaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 947E66DC25BCE3A40049DEAF /* PottaOne-Regular.ttf */; };
+		947E66E025BCE5710049DEAF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66DF25BCE5710049DEAF /* UIView.swift */; };
+		947E66E325BCE6F00049DEAF /* ReprositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66E225BCE6F00049DEAF /* ReprositoryListViewController.swift */; };
+		947E66E625BCE7070049DEAF /* ViewControllerIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66E525BCE7070049DEAF /* ViewControllerIdentifier.swift */; };
 		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +50,12 @@
 		947E66BC25BCA8AC0049DEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HachiMaruPop-Regular.ttf"; sourceTree = "<group>"; };
 		947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReprositoryList.storyboard; sourceTree = "<group>"; };
+		947E66D825BCE0B40049DEAF /* ReprositoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		947E66D925BCE0B40049DEAF /* ReprositoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReprositoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		947E66DC25BCE3A40049DEAF /* PottaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PottaOne-Regular.ttf"; sourceTree = "<group>"; };
+		947E66DF25BCE5710049DEAF /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		947E66E225BCE6F00049DEAF /* ReprositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListViewController.swift; sourceTree = "<group>"; };
+		947E66E525BCE7070049DEAF /* ViewControllerIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdentifier.swift; sourceTree = "<group>"; };
 		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +142,8 @@
 		947E66C725BCD8440049DEAF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				947E66E425BCE6F90049DEAF /* Constant */,
+				947E66DE25BCE55A0049DEAF /* Extension */,
 				947E66C825BCD8500049DEAF /* Core */,
 			);
 			path = Common;
@@ -149,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				947E66CA25BCD92E0049DEAF /* HachiMaruPop-Regular.ttf */,
+				947E66DC25BCE3A40049DEAF /* PottaOne-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -176,7 +191,9 @@
 		947E66CF25BCDEC30049DEAF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */,
+				947E66E125BCE6DB0049DEAF /* Controller */,
+				947E66D725BCE09A0049DEAF /* Cell */,
+				947E66D625BCE08B0049DEAF /* Storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +224,47 @@
 			children = (
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		947E66D625BCE08B0049DEAF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				947E66D425BCDF200049DEAF /* ReprositoryList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		947E66D725BCE09A0049DEAF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				947E66D825BCE0B40049DEAF /* ReprositoryCollectionViewCell.swift */,
+				947E66D925BCE0B40049DEAF /* ReprositoryCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		947E66DE25BCE55A0049DEAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				947E66DF25BCE5710049DEAF /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		947E66E125BCE6DB0049DEAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				947E66E225BCE6F00049DEAF /* ReprositoryListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		947E66E425BCE6F90049DEAF /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				947E66E525BCE7070049DEAF /* ViewControllerIdentifier.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 		E9B1CB2E1B101D5F08EE59F7 /* Pods */ = {
@@ -304,8 +362,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947E66DB25BCE0B40049DEAF /* ReprositoryCollectionViewCell.xib in Resources */,
 				947E66B025BCA8AC0049DEAF /* LaunchScreen.storyboard in Resources */,
 				947E66CB25BCD9300049DEAF /* HachiMaruPop-Regular.ttf in Resources */,
+				947E66DD25BCE3A40049DEAF /* PottaOne-Regular.ttf in Resources */,
 				947E66AD25BCA8AC0049DEAF /* Assets.xcassets in Resources */,
 				947E66D525BCDF200049DEAF /* ReprositoryList.storyboard in Resources */,
 			);
@@ -390,8 +450,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947E66E025BCE5710049DEAF /* UIView.swift in Sources */,
 				947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */,
 				947E66A625BCA8AA0049DEAF /* SceneDelegate.swift in Sources */,
+				947E66DA25BCE0B40049DEAF /* ReprositoryCollectionViewCell.swift in Sources */,
+				947E66E325BCE6F00049DEAF /* ReprositoryListViewController.swift in Sources */,
+				947E66E625BCE7070049DEAF /* ViewControllerIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
