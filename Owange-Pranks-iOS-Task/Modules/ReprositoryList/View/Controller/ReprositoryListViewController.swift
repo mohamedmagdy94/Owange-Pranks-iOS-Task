@@ -10,7 +10,7 @@ import UIKit
 import SkeletonView
 import Loaf
 
-protocol ReprositoryListViewProtocol {
+protocol ReprositoryListViewProtocol: class {
     func showLoading()
     func hideLoading()
     func showError(with message: String)

@@ -22,6 +22,12 @@
 		947E66E025BCE5710049DEAF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66DF25BCE5710049DEAF /* UIView.swift */; };
 		947E66E325BCE6F00049DEAF /* ReprositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66E225BCE6F00049DEAF /* ReprositoryListViewController.swift */; };
 		947E66E625BCE7070049DEAF /* ViewControllerIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E66E525BCE7070049DEAF /* ViewControllerIdentifier.swift */; };
+		947EE46C25BDDEE300C3A7F4 /* ReprositoryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE46B25BDDEE300C3A7F4 /* ReprositoryListPresenter.swift */; };
+		947EE46E25BDDF8600C3A7F4 /* ReprositoryListNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE46D25BDDF8600C3A7F4 /* ReprositoryListNavigationRouter.swift */; };
+		947EE47025BDDFD700C3A7F4 /* ReprositoryListNetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE46F25BDDFD700C3A7F4 /* ReprositoryListNetworkRouter.swift */; };
+		947EE47225BDE53300C3A7F4 /* ReprositoryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47125BDE53300C3A7F4 /* ReprositoryListInteractor.swift */; };
+		947EE47425BDE57200C3A7F4 /* ReprositoryListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47325BDE57200C3A7F4 /* ReprositoryListResponse.swift */; };
+		947EE47625BDE60700C3A7F4 /* ReprositoryListError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47525BDE60700C3A7F4 /* ReprositoryListError.swift */; };
 		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +62,12 @@
 		947E66DF25BCE5710049DEAF /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		947E66E225BCE6F00049DEAF /* ReprositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListViewController.swift; sourceTree = "<group>"; };
 		947E66E525BCE7070049DEAF /* ViewControllerIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdentifier.swift; sourceTree = "<group>"; };
+		947EE46B25BDDEE300C3A7F4 /* ReprositoryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListPresenter.swift; sourceTree = "<group>"; };
+		947EE46D25BDDF8600C3A7F4 /* ReprositoryListNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListNavigationRouter.swift; sourceTree = "<group>"; };
+		947EE46F25BDDFD700C3A7F4 /* ReprositoryListNetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListNetworkRouter.swift; sourceTree = "<group>"; };
+		947EE47125BDE53300C3A7F4 /* ReprositoryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListInteractor.swift; sourceTree = "<group>"; };
+		947EE47325BDE57200C3A7F4 /* ReprositoryListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListResponse.swift; sourceTree = "<group>"; };
+		947EE47525BDE60700C3A7F4 /* ReprositoryListError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListError.swift; sourceTree = "<group>"; };
 		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +213,7 @@
 		947E66D025BCDEC80049DEAF /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				947EE47125BDE53300C3A7F4 /* ReprositoryListInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -208,6 +221,7 @@
 		947E66D125BCDED10049DEAF /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				947EE46B25BDDEE300C3A7F4 /* ReprositoryListPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -215,6 +229,8 @@
 		947E66D225BCDEDA0049DEAF /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				947EE47325BDE57200C3A7F4 /* ReprositoryListResponse.swift */,
+				947EE47525BDE60700C3A7F4 /* ReprositoryListError.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -222,6 +238,8 @@
 		947E66D325BCDEDE0049DEAF /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				947EE46D25BDDF8600C3A7F4 /* ReprositoryListNavigationRouter.swift */,
+				947EE46F25BDDFD700C3A7F4 /* ReprositoryListNetworkRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -454,8 +472,14 @@
 				947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */,
 				947E66A625BCA8AA0049DEAF /* SceneDelegate.swift in Sources */,
 				947E66DA25BCE0B40049DEAF /* ReprositoryCollectionViewCell.swift in Sources */,
+				947EE46C25BDDEE300C3A7F4 /* ReprositoryListPresenter.swift in Sources */,
 				947E66E325BCE6F00049DEAF /* ReprositoryListViewController.swift in Sources */,
 				947E66E625BCE7070049DEAF /* ViewControllerIdentifier.swift in Sources */,
+				947EE46E25BDDF8600C3A7F4 /* ReprositoryListNavigationRouter.swift in Sources */,
+				947EE47425BDE57200C3A7F4 /* ReprositoryListResponse.swift in Sources */,
+				947EE47625BDE60700C3A7F4 /* ReprositoryListError.swift in Sources */,
+				947EE47025BDDFD700C3A7F4 /* ReprositoryListNetworkRouter.swift in Sources */,
+				947EE47225BDE53300C3A7F4 /* ReprositoryListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
