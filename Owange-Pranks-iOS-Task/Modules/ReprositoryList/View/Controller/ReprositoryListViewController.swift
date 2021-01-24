@@ -8,6 +8,16 @@
 
 import UIKit
 import SkeletonView
+import Loaf
+
+protocol ReprositoryListViewProtocol {
+    func showLoading()
+    func hideLoading()
+    func showError(with message: String)
+    func onScreenAppeared()
+    func reloadData()
+    func focusOnReprository(index: Int)
+}
 
 class ReprositoryListViewController: UIViewController {
 
@@ -31,7 +41,6 @@ class ReprositoryListViewController: UIViewController {
         listCollectionView.register(UINib(nibName: "ReprositoryCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: ReprositoryCollectionViewCell.IDENTIFIER)
         listCollectionView.delegate = self
         listCollectionView.dataSource = self
-        listCollectionView.showAnimatedGradientSkeleton()
     }
     
     @IBAction func onStatusSegmentChange(_ sender: UISegmentedControl) {
@@ -52,6 +61,35 @@ extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionVi
         cell.showAnimatedGradientSkeleton()
         return cell
     }
+    
+}
+
+extension ReprositoryListViewController: ReprositoryListViewProtocol{
+    func showLoading() {
+        listCollectionView.showAnimatedGradientSkeleton()
+    }
+    
+    func hideLoading() {
+        listCollectionView.stopSkeletonAnimation()
+    }
+    
+    func showError(with message: String) {
+        Loaf(message, state: .success, sender: self)
+            .show()
+    }
+    
+    func onScreenAppeared() {
+        
+    }
+    
+    func reloadData() {
+        
+    }
+    
+    func focusOnReprository(index: Int) {
+        listCollectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .top, animated: true)
+    }
+    
     
 }
 
