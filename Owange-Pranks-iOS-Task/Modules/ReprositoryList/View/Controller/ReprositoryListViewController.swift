@@ -14,7 +14,6 @@ protocol ReprositoryListViewProtocol {
     func showLoading()
     func hideLoading()
     func showError(with message: String)
-    func onScreenAppeared()
     func reloadData()
     func focusOnReprository(index: Int)
 }
@@ -58,7 +57,6 @@ extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ReprositoryCollectionViewCell.IDENTIFIER, for: indexPath) as! ReprositoryCollectionViewCell
-        cell.showAnimatedGradientSkeleton()
         return cell
     }
     
@@ -78,12 +76,8 @@ extension ReprositoryListViewController: ReprositoryListViewProtocol{
             .show()
     }
     
-    func onScreenAppeared() {
-        
-    }
-    
     func reloadData() {
-        
+        listCollectionView.reloadData()
     }
     
     func focusOnReprository(index: Int) {

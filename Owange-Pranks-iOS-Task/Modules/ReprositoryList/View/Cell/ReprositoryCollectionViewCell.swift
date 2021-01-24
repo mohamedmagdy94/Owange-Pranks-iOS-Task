@@ -18,7 +18,9 @@ class ReprositoryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var repoForkCounts: UILabel!
     @IBOutlet weak var repoIssuesCountLabel: UILabel!
     @IBOutlet weak var repoLanguageLabel: UILabel!
+    @IBOutlet weak var toggleReadButton: UIButton!
     
+    var toggleReadClosure = {}
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,5 +33,8 @@ class ReprositoryCollectionViewCell: UICollectionViewCell {
         ownerImageView.makeViewCircular()
     }
 
-
+    @IBAction func onToggleReadButtonTapped(_ sender: Any) {
+        
+    }
+    
 }

@@ -68,62 +68,62 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0O9-Gq-8tK" userLabel="forksStack">
-                                                <rect key="frame" x="0.0" y="25" width="195" height="25"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forks Count : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaV-5a-y0j" userLabel="forksCountKeyLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="78" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VJ-N6-wdX" userLabel="forksCountValueLabel">
-                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OeQ-SS-j75" userLabel="issuesStack">
-                                                <rect key="frame" x="0.0" y="50" width="195" height="25"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Issues Count : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otx-J6-t8h" userLabel="issuesCountKeyLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iu-vZ-fNA" userLabel="issuesCountValueLabel">
-                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="25"/>
-                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="281-DA-pP1" userLabel="languageStack">
-                                                <rect key="frame" x="0.0" y="75" width="195" height="25"/>
+                                                <rect key="frame" x="0.0" y="25" width="195" height="36"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHE-OO-XQN" userLabel="langaugeKeyLabel">
-                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="25"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="36"/>
                                                         <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOb-Cr-8Xd" userLabel="languageValueLabel">
-                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="25"/>
+                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="36"/>
                                                         <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="U3j-WN-Xz7" userLabel="descriptionStack">
-                                                <rect key="frame" x="0.0" y="100" width="195" height="50"/>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0O9-Gq-8tK" userLabel="forksStack">
+                                                <rect key="frame" x="0.0" y="61" width="195" height="0.0"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forks Count : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaV-5a-y0j" userLabel="forksCountKeyLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="0.0"/>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="78" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VJ-N6-wdX" userLabel="forksCountValueLabel">
+                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="0.0"/>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OeQ-SS-j75" userLabel="issuesStack">
+                                                <rect key="frame" x="0.0" y="61" width="195" height="0.0"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Issues Count : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otx-J6-t8h" userLabel="issuesCountKeyLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="93.5" height="0.0"/>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iu-vZ-fNA" userLabel="issuesCountValueLabel">
+                                                        <rect key="frame" x="101.5" y="0.0" width="93.5" height="0.0"/>
+                                                        <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="U3j-WN-Xz7" userLabel="descriptionStack">
+                                                <rect key="frame" x="0.0" y="61" width="195" height="0.0"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QZp-Bc-unu">
-                                                        <rect key="frame" x="0.0" y="0.0" width="95.5" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="95.5" height="0.0"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTN-Vc-gmE" userLabel="descriptionKeyLabel">
                                                                 <rect key="frame" x="0.0" y="0.0" width="95.5" height="49.5"/>
@@ -140,7 +140,7 @@
                                                         </constraints>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efk-eT-rmK" userLabel="descriptionValueLabel">
-                                                        <rect key="frame" x="99.5" y="0.0" width="95.5" height="50"/>
+                                                        <rect key="frame" x="99.5" y="0.0" width="95.5" height="0.0"/>
                                                         <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
                                                         <fontDescription key="fontDescription" name="HachiMaruPop-Regular" family="Hachi Maru Pop" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -148,8 +148,38 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVd-Hc-bDf" userLabel="toggleReadButton">
+                                                <rect key="frame" x="0.0" y="61" width="195" height="53"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeW-ai-JOE" userLabel="toggleReadButton">
+                                                        <rect key="frame" x="8" y="8" width="120" height="37"/>
+                                                        <color key="backgroundColor" red="0.18431372549019609" green="0.85882352941176465" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="120" id="GgK-Xi-Sr6"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="PottaOne-Regular" family="Potta One" pointSize="17"/>
+                                                        <state key="normal" title="Read More">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="8"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="onToggleReadButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="0tW-of-vDE"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="QeW-ai-JOE" secondAttribute="bottom" constant="8" id="96B-Ut-KDJ"/>
+                                                    <constraint firstItem="QeW-ai-JOE" firstAttribute="top" secondItem="WVd-Hc-bDf" secondAttribute="top" constant="8" id="Uov-uF-Kep"/>
+                                                    <constraint firstItem="QeW-ai-JOE" firstAttribute="leading" secondItem="WVd-Hc-bDf" secondAttribute="leading" constant="8" id="mZF-Al-hgc"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rv-h0-TVP" userLabel="emptyView">
-                                                <rect key="frame" x="0.0" y="150" width="195" height="14"/>
+                                                <rect key="frame" x="0.0" y="114" width="195" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             </view>
                                         </subviews>
@@ -203,6 +233,7 @@
                 <outlet property="repoIssuesCountLabel" destination="7iu-vZ-fNA" id="aO2-dx-syh"/>
                 <outlet property="repoLanguageLabel" destination="uOb-Cr-8Xd" id="x4y-L2-bMd"/>
                 <outlet property="repoNameLabel" destination="37G-Ch-Qhm" id="aX6-GE-p50"/>
+                <outlet property="toggleReadButton" destination="QeW-ai-JOE" id="1WJ-DR-bTX"/>
             </connections>
             <point key="canvasLocation" x="89" y="3"/>
         </collectionViewCell>
