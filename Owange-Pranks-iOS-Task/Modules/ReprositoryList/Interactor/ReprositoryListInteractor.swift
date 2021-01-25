@@ -19,7 +19,7 @@ protocol ReprositoryListInteractorProtocol: class {
 class ReprositoryListInteractor: ReprositoryListInteractorProtocol {
     
     private var remoteDataSource: MoyaProvider<ReprositoryListNetworkRouter>
-    private weak var presenter: PresenterToInteractorReprositoryListProtocol?
+    weak var presenter: PresenterToInteractorReprositoryListProtocol?
     private var jsonTransformer: CodableTransforming
     private var response: ReprositoryListResponse
     private var localDataSource: Realm

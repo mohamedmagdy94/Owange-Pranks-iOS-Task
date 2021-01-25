@@ -24,6 +24,7 @@ class ReprositoryListViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var listCollectionView: UICollectionView!
     
+    var presenter: PresenterToViewReprositoryListProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()

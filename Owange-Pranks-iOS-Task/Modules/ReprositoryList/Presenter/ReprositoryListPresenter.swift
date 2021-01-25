@@ -72,7 +72,7 @@ class ReprositoryListPresenter: ReprositoryListPresenterProtocol {
     func onReprositoryListFetchSuccess(response: ReprositoryListResponse) {
         self.repos = transformer?.toCellViewModels(from: response) ?? [ReprositoryCellViewModel]()
         view?.reloadData()
-        var indexToFocusOn = (pageNumber - 1) * pageSize
+        let indexToFocusOn = (pageNumber - 1) * pageSize
         view?.hideLoading()
         view?.focusOnReprository(index: indexToFocusOn)
         
