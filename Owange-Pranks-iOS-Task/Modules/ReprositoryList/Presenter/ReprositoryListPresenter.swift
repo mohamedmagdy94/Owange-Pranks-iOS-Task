@@ -8,14 +8,14 @@
 
 import Foundation
 
-protocol PresenterToViewReprositoryListProtocol {
+protocol PresenterToViewReprositoryListProtocol: class {
     func onScreenAppeared()
     func onSearchRequested(searchQuery: String)
     func onFilterRequested(index: Int)
     func onRowWillBeShowen(index: Int)
 }
 
-protocol PresenterToInteractorReprositoryListProtocol {
+protocol PresenterToInteractorReprositoryListProtocol: class {
     func onReprositoryListFetchSuccess(response: ReprositoryListResponse)
     func onReprositoryListFetchFailed(error: ReprositoryListError)
 }

@@ -1,57 +1,57 @@
-
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
 //   let reprositoryListResponse = try? newJSONDecoder().decode(ReprositoryListResponse.self, from: jsonData)
 
 import Foundation
+import Unrealm
 
 // MARK: - ReprositoryListResponseElement
-struct ReprositoryListResponseElement: Codable {
-    let id: Int
-    let nodeID, name, fullName: String
-    let reprositoryListResponsePrivate: Bool
-    let owner: Owner
-    let htmlURL: String
-    let reprositoryListResponseDescription: String
-    let fork: Bool
-    let url: String
-    let forksURL: String
-    let keysURL, collaboratorsURL: String
-    let teamsURL, hooksURL: String
-    let issueEventsURL: String
-    let eventsURL: String
-    let assigneesURL, branchesURL: String
-    let tagsURL: String
-    let blobsURL, gitTagsURL, gitRefsURL, treesURL: String
-    let statusesURL: String
-    let languagesURL, stargazersURL, contributorsURL, subscribersURL: String
-    let subscriptionURL: String
-    let commitsURL, gitCommitsURL, commentsURL, issueCommentURL: String
-    let contentsURL, compareURL: String
-    let mergesURL: String
-    let archiveURL: String
-    let downloadsURL: String
-    let issuesURL, pullsURL, milestonesURL, notificationsURL: String
-    let labelsURL, releasesURL: String
-    let deploymentsURL: String
-    let createdAt, updatedAt, pushedAt: Date
-    let gitURL, sshURL: String
-    let cloneURL: String
-    let svnURL: String
+struct ReprositoryListResponseElement: Codable,Realmable {
+    let id: Int?
+    let nodeID, name, fullName: String?
+    let reprositoryListResponsePrivate: Bool?
+    let owner: Owner?
+    let htmlURL: String?
+    let reprositoryListResponseDescription: String?
+    let fork: Bool?
+    let url: String?
+    let forksURL: String?
+    let keysURL, collaboratorsURL: String?
+    let teamsURL, hooksURL: String?
+    let issueEventsURL: String?
+    let eventsURL: String?
+    let assigneesURL, branchesURL: String?
+    let tagsURL: String?
+    let blobsURL, gitTagsURL, gitRefsURL, treesURL: String?
+    let statusesURL: String?
+    let languagesURL, stargazersURL, contributorsURL, subscribersURL: String?
+    let subscriptionURL: String?
+    let commitsURL, gitCommitsURL, commentsURL, issueCommentURL: String?
+    let contentsURL, compareURL: String?
+    let mergesURL: String?
+    let archiveURL: String?
+    let downloadsURL: String?
+    let issuesURL, pullsURL, milestonesURL, notificationsURL: String?
+    let labelsURL, releasesURL: String?
+    let deploymentsURL: String?
+    let createdAt, updatedAt, pushedAt: Date?
+    let gitURL, sshURL: String?
+    let cloneURL: String?
+    let svnURL: String?
     let homepage: String?
-    let size, stargazersCount, watchersCount: Int
+    let size, stargazersCount, watchersCount: Int?
     let language: String?
-    let hasIssues, hasProjects, hasDownloads, hasWiki: Bool
-    let hasPages: Bool
-    let forksCount: Int
+    let hasIssues, hasProjects, hasDownloads, hasWiki: Bool?
+    let hasPages: Bool?
+    let forksCount: Int?
     let mirrorURL: String?
-    let archived, disabled: Bool
-    let openIssuesCount: Int
+    let archived, disabled: Bool?
+    let openIssuesCount: Int?
     let license: License?
-    let forks, openIssues, watchers: Int
-    let defaultBranch: DefaultBranch
-
+    let forks, openIssues, watchers: Int?
+    let defaultBranch: DefaultBranch?
+    
     enum CodingKeys: String, CodingKey {
         case id
         case nodeID = "node_id"
@@ -123,6 +123,84 @@ struct ReprositoryListResponseElement: Codable {
         case watchers
         case defaultBranch = "default_branch"
     }
+    init() {
+           self.id = nil
+           self.nodeID = nil
+           self.name = nil
+           self.fullName = nil
+           self.reprositoryListResponsePrivate = nil
+           self.owner = nil
+           self.htmlURL = nil
+           self.reprositoryListResponseDescription = nil
+           self.fork = nil
+           self.url = nil
+           self.forksURL = nil
+           self.keysURL = nil
+           self.collaboratorsURL = nil
+           self.teamsURL = nil
+           self.hooksURL = nil
+           self.issueEventsURL = nil
+           self.eventsURL = nil
+           self.assigneesURL = nil
+           self.branchesURL = nil
+           self.tagsURL = nil
+           self.blobsURL = nil
+           self.gitTagsURL = nil
+           self.gitRefsURL = nil
+           self.treesURL = nil
+           self.statusesURL = nil
+           self.languagesURL = nil
+           self.stargazersURL = nil
+           self.contributorsURL = nil
+           self.subscribersURL = nil
+           self.subscriptionURL = nil
+           self.commitsURL = nil
+           self.gitCommitsURL = nil
+           self.commentsURL = nil
+           self.issueCommentURL = nil
+           self.contentsURL = nil
+           self.compareURL = nil
+           self.mergesURL = nil
+           self.archiveURL = nil
+           self.downloadsURL = nil
+           self.issuesURL = nil
+           self.pullsURL = nil
+           self.milestonesURL = nil
+           self.notificationsURL = nil
+           self.labelsURL = nil
+           self.releasesURL = nil
+           self.deploymentsURL = nil
+           self.createdAt = nil
+           self.updatedAt = nil
+           self.pushedAt = nil
+           self.gitURL = nil
+           self.sshURL = nil
+           self.cloneURL = nil
+           self.svnURL = nil
+           self.homepage = nil
+           self.size = nil
+           self.stargazersCount = nil
+           self.watchersCount = nil
+           self.language = nil
+           self.hasIssues = nil
+           self.hasProjects = nil
+           self.hasDownloads = nil
+           self.hasWiki = nil
+           self.hasPages = nil
+           self.forksCount = nil
+           self.mirrorURL = nil
+           self.archived = nil
+           self.disabled = nil
+           self.openIssuesCount = nil
+           self.license = nil
+           self.forks = nil
+           self.openIssues = nil
+           self.watchers = nil
+           self.defaultBranch = nil
+       }
+       
+       
+    
 }
 
 enum DefaultBranch: String, Codable {
@@ -130,19 +208,30 @@ enum DefaultBranch: String, Codable {
 }
 
 // MARK: - License
-struct License: Codable {
-    let key: Key
-    let name: Name
-    let spdxID: SpdxID
+struct License: Codable ,Realmable{
+    
+    let key: Key?
+    let name: Name?
+    let spdxID: SpdxID?
     let url: String?
-    let nodeID: LicenseNodeID
-
+    let nodeID: LicenseNodeID?
+    
     enum CodingKeys: String, CodingKey {
         case key, name
         case spdxID = "spdx_id"
         case url
         case nodeID = "node_id"
     }
+    
+    init() {
+        self.key = nil
+        self.name = nil
+        self.spdxID = nil
+        self.url = nil
+        self.nodeID = nil
+    }
+    
+    
 }
 
 enum Key: String, Codable {
@@ -170,22 +259,23 @@ enum SpdxID: String, Codable {
 }
 
 // MARK: - Owner
-struct Owner: Codable {
-    let login: Login
-    let id: Int
-    let nodeID: OwnerNodeID
-    let avatarURL: String
-    let gravatarID: String
-    let url, htmlURL, followersURL: String
-    let followingURL: FollowingURL
-    let gistsURL: GistsURL
-    let starredURL: StarredURL
-    let subscriptionsURL, organizationsURL, reposURL: String
-    let eventsURL: EventsURL
-    let receivedEventsURL: String
-    let type: TypeEnum
-    let siteAdmin: Bool
-
+struct Owner: Codable ,Realmable{
+    
+    let login: Login?
+    let id: Int?
+    let nodeID: OwnerNodeID?
+    let avatarURL: String?
+    let gravatarID: String?
+    let url, htmlURL, followersURL: String?
+    let followingURL: FollowingURL?
+    let gistsURL: GistsURL?
+    let starredURL: StarredURL?
+    let subscriptionsURL, organizationsURL, reposURL: String?
+    let eventsURL: EventsURL?
+    let receivedEventsURL: String?
+    let type: TypeEnum?
+    let siteAdmin: Bool?
+    
     enum CodingKeys: String, CodingKey {
         case login, id
         case nodeID = "node_id"
@@ -205,6 +295,27 @@ struct Owner: Codable {
         case type
         case siteAdmin = "site_admin"
     }
+    
+   init() {
+       self.login = nil
+       self.id = nil
+       self.nodeID = nil
+       self.avatarURL = nil
+       self.gravatarID = nil
+       self.url = nil
+       self.htmlURL = nil
+       self.followersURL = nil
+       self.followingURL = nil
+       self.gistsURL = nil
+       self.starredURL = nil
+       self.subscriptionsURL = nil
+       self.organizationsURL = nil
+       self.reposURL = nil
+       self.eventsURL = nil
+       self.receivedEventsURL = nil
+       self.type = nil
+       self.siteAdmin = nil
+   }
 }
 
 enum EventsURL: String, Codable {
