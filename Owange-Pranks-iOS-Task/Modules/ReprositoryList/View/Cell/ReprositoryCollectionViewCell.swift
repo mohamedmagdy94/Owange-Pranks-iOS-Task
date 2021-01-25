@@ -28,7 +28,7 @@ class ReprositoryCollectionViewCell: UICollectionViewCell {
     
     private func setup(){
         contentView.translatesAutoresizingMaskIntoConstraints = false
-        contentView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
+        contentView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width * 0.96).isActive = true
         ownerImageView.makeViewCircular()
     }
 

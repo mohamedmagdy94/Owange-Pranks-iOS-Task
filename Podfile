@@ -14,7 +14,7 @@ target 'Owange-Pranks-iOS-Task' do
   pod 'AlamofireNetworkActivityIndicator'
   pod 'Loaf'
   pod 'Unrealm'
-
+  pod "KRProgressHUD"
 
   target 'Owange-Pranks-iOS-TaskTests' do
     inherit! :search_paths

@@ -71,15 +71,20 @@ extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ReprositoryCollectionViewCell.IDENTIFIER, for: indexPath) as! ReprositoryCollectionViewCell
         cell.config(with: presenter!.repos[indexPath.item])
-       
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        presenter?.onRowWillBeShowen(index: indexPath.item)
     }
     
 }
 
 extension ReprositoryListViewController: ReprositoryListViewProtocol{
     func showLoading() {
-        ProgressHUD.show()
+        DispatchQueue.main.sync {
+            ProgressHUD.show()
+        }
     }
     
     func hideLoading() {
