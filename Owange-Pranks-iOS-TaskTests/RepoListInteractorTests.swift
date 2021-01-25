@@ -7,6 +7,10 @@
 //
 
 import XCTest
+import Moya
+import Unrealm
+@testable import Owange_Pranks_iOS_Task
+
 
 class RepoListInteractorTests: XCTestCase {
 
@@ -28,6 +32,16 @@ class RepoListInteractorTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testSearchInInteractor() throws{
+        let remoteDataSourceWithMocking = MoyaProvider<ReprositoryListNetworkRouter>(stubClosure: MoyaProvider.immediatelyStub)
+        let interactor = ReprositoryListInteractor(remoteDataSource: remoteDataSourceWithMocking, jsonTransformer: CodableTransformer(), localDataSource: try! Realm())
+        interactor.getList(pageNumber: 1)
+        let presenter = ReprositoryListPresenter(view: nil, navigationRouter: nil, interactor: interactor, transformer: ReprositoryListTransformer())
+        interactor.presenter = presenter
+        interactor.search(query: "Ax")
+        XCTAssert(presenter.repos.count > 0)
     }
 
 }

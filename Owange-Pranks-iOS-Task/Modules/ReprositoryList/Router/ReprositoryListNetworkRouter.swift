@@ -17,7 +17,7 @@ extension ReprositoryListNetworkRouter: TargetType {
     var sampleData: Data {
         switch self {
         case .getRepos:
-            return Data()
+            return ReprositoryListResponseElement.getMockInJsonFormat()
         }
     }
     

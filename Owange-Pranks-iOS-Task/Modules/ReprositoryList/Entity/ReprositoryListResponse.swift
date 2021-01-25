@@ -39,6 +39,21 @@ struct ReprositoryListResponseElement: Codable,Realmable {
         self.owner = nil
     }
     
+    static func getMock()->ReprositoryListResponse{
+        let url = Bundle.main.url(forResource: "RepoListResponse", withExtension: "json")!
+        let jsonData = try! Data(contentsOf: url)
+        let jsonTransformer = CodableTransformer()
+        let responseModel = jsonTransformer.decodeObject(from: jsonData, to: ReprositoryListResponse.self)!
+        return responseModel
+    }
+    
+    static func getMockInJsonFormat()->Data{
+        let codableTransformer = CodableTransformer()
+        let resppnse = getMock()
+        let json = codableTransformer.encodeObject(from: resppnse)!
+        return json
+    }
+    
 }
 
 struct Owner: Codable,Realmable {
