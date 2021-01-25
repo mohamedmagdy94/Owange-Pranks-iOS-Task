@@ -9,5 +9,5 @@
 import Foundation
 
 enum APIConstant: String{
-    case BASE_URL = "https://pastebin.com/"
+    case BASE_URL = "https://pastebin.com"
 }

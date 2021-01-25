@@ -19,7 +19,7 @@ class ReprositoryListNavigationRouter: ReprositoryListNavigationRouterProtocol {
     static func createModule() -> UIViewController {
         let targetViewController = UIViewController.create(storyboardName: StoryboardName.REPROSITORY_LIST.rawValue, viewControllerID: ViewControllerIdentifier.ReprositoryListViewController.rawValue) as! ReprositoryListViewController
         let navigationRouter = ReprositoryListNavigationRouter(view: targetViewController)
-        let remoteDataSource = MoyaProvider<ReprositoryListNetworkRouter>()
+        let remoteDataSource = MoyaProvider<ReprositoryListNetworkRouter>(plugins: [NetworkLoggerPlugin()])
         let localDataSource = try! Realm()
         let interactor = ReprositoryListInteractor(remoteDataSource: remoteDataSource, jsonTransformer: CodableTransformer(), localDataSource: localDataSource)
         let presenter = ReprositoryListPresenter(view: targetViewController, navigationRouter: navigationRouter, interactor: interactor, transformer: ReprositoryListTransformer())

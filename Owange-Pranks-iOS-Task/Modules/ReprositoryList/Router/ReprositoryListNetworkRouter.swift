@@ -36,7 +36,7 @@ extension ReprositoryListNetworkRouter: TargetType {
     var method: Moya.Method {
         switch self {
         case .getRepos:
-            return .post
+            return .get
         }
     }
     

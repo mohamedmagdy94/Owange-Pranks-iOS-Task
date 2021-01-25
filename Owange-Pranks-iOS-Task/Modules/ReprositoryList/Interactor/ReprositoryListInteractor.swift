@@ -85,6 +85,7 @@ class ReprositoryListInteractor: ReprositoryListInteractorProtocol {
         if pageNumber == 1{
             try! localDataSource.write{[weak self] in
                 guard let weakSelf = self else{ return }
+                localDataSource.deleteAll()
                 weakSelf.localDataSource.add(weakSelf.response)
             }
         }

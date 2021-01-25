@@ -12,29 +12,36 @@ class ReprositoryCollectionViewCell: UICollectionViewCell {
 
     static var IDENTIFIER = "REPROPSITORY_COLLECTION_VIEW_CELL"
     
+    @IBOutlet weak var rootView: UIView!
     @IBOutlet weak var ownerImageView: UIImageView!
     @IBOutlet weak var repoNameLabel: UILabel!
     @IBOutlet weak var repoDescriptionLabel: UILabel!
     @IBOutlet weak var repoForkCounts: UILabel!
     @IBOutlet weak var repoIssuesCountLabel: UILabel!
     @IBOutlet weak var repoLanguageLabel: UILabel!
-    @IBOutlet weak var toggleReadButton: UIButton!
     
-    var toggleReadClosure = {}
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        contentView.translatesAutoresizingMaskIntoConstraints = false
-        contentView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
         setup()
     }
     
     private func setup(){
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        contentView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
         ownerImageView.makeViewCircular()
     }
 
-    @IBAction func onToggleReadButtonTapped(_ sender: Any) {
-        
+    
+    
+    func config(with model: ReprositoryCellViewModel){
+        rootView.backgroundColor = model.backgroundColor
+        ownerImageView.sd_setImage(with: URL(string: model.imageURL), placeholderImage: #imageLiteral(resourceName: "owange_pranks_logo"))
+        repoNameLabel.text = model.name
+        repoDescriptionLabel.text = model.description
+        repoForkCounts.text = model.forksCount
+        repoIssuesCountLabel.text = model.issuesCount
+        repoLanguageLabel.text = model.language
     }
     
 }

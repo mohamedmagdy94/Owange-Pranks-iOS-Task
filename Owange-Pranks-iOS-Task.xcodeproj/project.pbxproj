@@ -36,6 +36,8 @@
 		947EE48325BF0B3600C3A7F4 /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48225BF0B3600C3A7F4 /* StoryboardName.swift */; };
 		947EE48525BF0BF900C3A7F4 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48425BF0BF900C3A7F4 /* UIViewController.swift */; };
 		947EE48725BF0DCA00C3A7F4 /* AppNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48625BF0DCA00C3A7F4 /* AppNavigationRouter.swift */; };
+		947EE48925BF226400C3A7F4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48825BF226400C3A7F4 /* UIColor.swift */; };
+		947EE48B25BF34E900C3A7F4 /* RepoListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48A25BF34E900C3A7F4 /* RepoListInteractorTests.swift */; };
 		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,8 @@
 		947EE48225BF0B3600C3A7F4 /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
 		947EE48425BF0BF900C3A7F4 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		947EE48625BF0DCA00C3A7F4 /* AppNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationRouter.swift; sourceTree = "<group>"; };
+		947EE48825BF226400C3A7F4 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		947EE48A25BF34E900C3A7F4 /* RepoListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListInteractorTests.swift; sourceTree = "<group>"; };
 		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 			children = (
 				947E66BA25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift */,
 				947E66BC25BCA8AC0049DEAF /* Info.plist */,
+				947EE48A25BF34E900C3A7F4 /* RepoListInteractorTests.swift */,
 			);
 			path = "Owange-Pranks-iOS-TaskTests";
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			children = (
 				947E66DF25BCE5710049DEAF /* UIView.swift */,
 				947EE48425BF0BF900C3A7F4 /* UIViewController.swift */,
+				947EE48825BF226400C3A7F4 /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -501,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				947EE47E25BEF2B600C3A7F4 /* APIConstant.swift in Sources */,
+				947EE48925BF226400C3A7F4 /* UIColor.swift in Sources */,
 				947E66E025BCE5710049DEAF /* UIView.swift in Sources */,
 				947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */,
 				947EE48525BF0BF900C3A7F4 /* UIViewController.swift in Sources */,
@@ -527,6 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947EE48B25BF34E900C3A7F4 /* RepoListInteractorTests.swift in Sources */,
 				947E66BB25BCA8AC0049DEAF /* Owange_Pranks_iOS_TaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

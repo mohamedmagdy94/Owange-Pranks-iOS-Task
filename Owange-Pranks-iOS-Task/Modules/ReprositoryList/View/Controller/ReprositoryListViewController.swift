@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SkeletonView
+import ProgressHUD
 import Loaf
 
 protocol ReprositoryListViewProtocol: class {
@@ -35,6 +35,8 @@ class ReprositoryListViewController: UIViewController {
         setupCollection()
         statusSegmentControl.insertSegment(withTitle: "Not Forked", at: 2, animated: false)
         searchBar.backgroundImage = UIImage()
+        searchBar.delegate = self
+        presenter?.onScreenAppeared()
     }
     
     private func setupCollection(){
@@ -44,20 +46,32 @@ class ReprositoryListViewController: UIViewController {
     }
     
     @IBAction func onStatusSegmentChange(_ sender: UISegmentedControl) {
-        
+        presenter?.onFilterRequested(index: sender.selectedSegmentIndex)
     }
     
 
 }
 
+extension ReprositoryListViewController: UISearchBarDelegate{
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        presenter?.onSearchRequested(searchQuery: searchBar.text ?? "")
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        presenter?.onSearchRequested(searchQuery: searchText)
+    }
+}
+
 extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return presenter?.repos.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ReprositoryCollectionViewCell.IDENTIFIER, for: indexPath) as! ReprositoryCollectionViewCell
+        cell.config(with: presenter!.repos[indexPath.item])
+       
         return cell
     }
     
@@ -65,15 +79,15 @@ extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionVi
 
 extension ReprositoryListViewController: ReprositoryListViewProtocol{
     func showLoading() {
-        listCollectionView.showAnimatedGradientSkeleton()
+        ProgressHUD.show()
     }
     
     func hideLoading() {
-        listCollectionView.stopSkeletonAnimation()
+        ProgressHUD.dismiss()
     }
     
     func showError(with message: String) {
-        Loaf(message, state: .success, sender: self)
+        Loaf(message, state: .error, sender: self)
             .show()
     }
     

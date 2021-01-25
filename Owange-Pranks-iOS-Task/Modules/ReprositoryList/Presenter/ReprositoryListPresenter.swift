@@ -7,8 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
 protocol PresenterToViewReprositoryListProtocol: class {
+    var repos: [ReprositoryCellViewModel]{get}
     func onScreenAppeared()
     func onSearchRequested(searchQuery: String)
     func onFilterRequested(index: Int)
@@ -26,12 +28,12 @@ class ReprositoryListPresenter: ReprositoryListPresenterProtocol {
     
     private weak var view: ReprositoryListViewProtocol?
     private weak var navigationRouter: ReprositoryListNavigationRouterProtocol?
-    private weak var interactor: ReprositoryListInteractorProtocol?
+    private var interactor: ReprositoryListInteractorProtocol?
     private var transformer: ReprositoryListTransforming?
     private var isLoading: Bool
     private var pageNumber: Int
     private var pageSize: Int
-    private var repos: [ReprositoryCellViewModel]
+    var repos: [ReprositoryCellViewModel]
     
     init(view: ReprositoryListViewProtocol? = nil, navigationRouter: ReprositoryListNavigationRouterProtocol? = nil, interactor: ReprositoryListInteractorProtocol? = nil,transformer: ReprositoryListTransforming) {
         self.view = view
@@ -71,9 +73,9 @@ class ReprositoryListPresenter: ReprositoryListPresenterProtocol {
     
     func onReprositoryListFetchSuccess(response: ReprositoryListResponse) {
         self.repos = transformer?.toCellViewModels(from: response) ?? [ReprositoryCellViewModel]()
+        view?.hideLoading()
         view?.reloadData()
         let indexToFocusOn = (pageNumber - 1) * pageSize
-        view?.hideLoading()
         view?.focusOnReprository(index: indexToFocusOn)
         
     }
@@ -82,6 +84,8 @@ class ReprositoryListPresenter: ReprositoryListPresenterProtocol {
         view?.hideLoading()
         view?.showError(with: error.localizedDescription)
     }
+    
+   
     
     
     
