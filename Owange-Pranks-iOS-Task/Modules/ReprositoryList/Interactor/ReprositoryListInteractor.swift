@@ -17,6 +17,7 @@ protocol ReprositoryListInteractorProtocol: class {
 class ReprositoryListInteractor: ReprositoryListInteractorProtocol {
     
     
+    
     func getList(pageNumber: Int) {
         
     }

@@ -31,6 +31,7 @@
 		947EE47825BDE77900C3A7F4 /* ReprositoryListTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47725BDE77900C3A7F4 /* ReprositoryListTransformer.swift */; };
 		947EE47A25BDE7B100C3A7F4 /* ReprositoryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47925BDE7B100C3A7F4 /* ReprositoryCellViewModel.swift */; };
 		947EE47C25BEEC5600C3A7F4 /* ReprositoryListFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47B25BEEC5600C3A7F4 /* ReprositoryListFilter.swift */; };
+		947EE47E25BEF2B600C3A7F4 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE47D25BEF2B600C3A7F4 /* APIConstant.swift */; };
 		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		947EE47725BDE77900C3A7F4 /* ReprositoryListTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListTransformer.swift; sourceTree = "<group>"; };
 		947EE47925BDE7B100C3A7F4 /* ReprositoryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryCellViewModel.swift; sourceTree = "<group>"; };
 		947EE47B25BEEC5600C3A7F4 /* ReprositoryListFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReprositoryListFilter.swift; sourceTree = "<group>"; };
+		947EE47D25BEF2B600C3A7F4 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				947E66E525BCE7070049DEAF /* ViewControllerIdentifier.swift */,
+				947EE47D25BEF2B600C3A7F4 /* APIConstant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947EE47E25BEF2B600C3A7F4 /* APIConstant.swift in Sources */,
 				947E66E025BCE5710049DEAF /* UIView.swift in Sources */,
 				947E66A425BCA8AA0049DEAF /* AppDelegate.swift in Sources */,
 				947E66A625BCA8AA0049DEAF /* SceneDelegate.swift in Sources */,
