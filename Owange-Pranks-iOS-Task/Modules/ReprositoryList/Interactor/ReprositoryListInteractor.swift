@@ -10,6 +10,8 @@ import Foundation
 
 protocol ReprositoryListInteractorProtocol: class {
     func getList(pageNumber: Int)
+    func search(query: String)
+    func filter(filter: ReprositoryListFilter)
 }
 
 class ReprositoryListInteractor: ReprositoryListInteractorProtocol {
@@ -19,5 +21,12 @@ class ReprositoryListInteractor: ReprositoryListInteractorProtocol {
         
     }
     
+    func search(query: String) {
+        
+    }
+    
+    func filter(filter: ReprositoryListFilter) {
+        
+    }
     
 }
