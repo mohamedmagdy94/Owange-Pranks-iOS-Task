@@ -35,6 +35,7 @@
 		947EE48125BEF37C00C3A7F4 /* CodableTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48025BEF37C00C3A7F4 /* CodableTransformer.swift */; };
 		947EE48325BF0B3600C3A7F4 /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48225BF0B3600C3A7F4 /* StoryboardName.swift */; };
 		947EE48525BF0BF900C3A7F4 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48425BF0BF900C3A7F4 /* UIViewController.swift */; };
+		947EE48725BF0DCA00C3A7F4 /* AppNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947EE48625BF0DCA00C3A7F4 /* AppNavigationRouter.swift */; };
 		E8594DB029BD83029483B542 /* Pods_Owange_Pranks_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947142EDD77B5F980ED7250B /* Pods_Owange_Pranks_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		947EE48025BEF37C00C3A7F4 /* CodableTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableTransformer.swift; sourceTree = "<group>"; };
 		947EE48225BF0B3600C3A7F4 /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
 		947EE48425BF0BF900C3A7F4 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		947EE48625BF0DCA00C3A7F4 /* AppNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationRouter.swift; sourceTree = "<group>"; };
 		9F0D89192D8C8D266F49827B /* Pods-Owange-Pranks-iOS-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		E7DE3994E5CE31400A210730 /* Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-TaskTests/Pods-Owange-Pranks-iOS-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1CA2545802B1AC32F8EBC52 /* Pods-Owange-Pranks-iOS-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Pranks-iOS-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Pranks-iOS-Task/Pods-Owange-Pranks-iOS-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				947E66A325BCA8AA0049DEAF /* AppDelegate.swift */,
 				947E66A525BCA8AA0049DEAF /* SceneDelegate.swift */,
 				947E66B125BCA8AC0049DEAF /* Info.plist */,
+				947EE48625BF0DCA00C3A7F4 /* AppNavigationRouter.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				947EE47C25BEEC5600C3A7F4 /* ReprositoryListFilter.swift in Sources */,
 				947E66E325BCE6F00049DEAF /* ReprositoryListViewController.swift in Sources */,
 				947E66E625BCE7070049DEAF /* ViewControllerIdentifier.swift in Sources */,
+				947EE48725BF0DCA00C3A7F4 /* AppNavigationRouter.swift in Sources */,
 				947EE47825BDE77900C3A7F4 /* ReprositoryListTransformer.swift in Sources */,
 				947EE46E25BDDF8600C3A7F4 /* ReprositoryListNavigationRouter.swift in Sources */,
 				947EE47425BDE57200C3A7F4 /* ReprositoryListResponse.swift in Sources */,
