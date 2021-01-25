@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import ProgressHUD
 import Loaf
+import KRProgressHUD
+
 
 protocol ReprositoryListViewProtocol: class {
     func showLoading()
@@ -19,7 +20,7 @@ protocol ReprositoryListViewProtocol: class {
 }
 
 class ReprositoryListViewController: UIViewController {
-
+    
     @IBOutlet weak var statusSegmentControl: UISegmentedControl!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var listCollectionView: UICollectionView!
@@ -49,7 +50,7 @@ class ReprositoryListViewController: UIViewController {
         presenter?.onFilterRequested(index: sender.selectedSegmentIndex)
     }
     
-
+    
 }
 
 extension ReprositoryListViewController: UISearchBarDelegate{
@@ -82,13 +83,12 @@ extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionVi
 
 extension ReprositoryListViewController: ReprositoryListViewProtocol{
     func showLoading() {
-        DispatchQueue.main.sync {
-            ProgressHUD.show()
-        }
+        KRProgressHUD.show()
+        
     }
     
     func hideLoading() {
-        ProgressHUD.dismiss()
+        KRProgressHUD.dismiss()
     }
     
     func showError(with message: String) {
