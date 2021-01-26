@@ -83,12 +83,14 @@ extension ReprositoryListViewController: UICollectionViewDelegate,UICollectionVi
 
 extension ReprositoryListViewController: ReprositoryListViewProtocol{
     func showLoading() {
-        KRProgressHUD.show()
+        
         
     }
     
     func hideLoading() {
-        KRProgressHUD.dismiss()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            KRProgressHUD.dismiss()
+        }
     }
     
     func showError(with message: String) {
